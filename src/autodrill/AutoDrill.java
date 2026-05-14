@@ -318,6 +318,7 @@ public class AutoDrill extends Mod {
         directionTable.table().get().button(Icon.up, Styles.defaulti, () -> {
             directionAction.get(Direction.UP);
             directionTable.visible = false;
+            enabled = true;
         }).get().resizeImage(buttonSize);
 
         directionTable.row();
