@@ -328,13 +328,16 @@ public class AutoDrill extends Mod {
         row2.button(Icon.left, Styles.defaulti, () -> {
             directionAction.get(Direction.LEFT);
             directionTable.visible = false;
+            enabled = true;
         }).get().resizeImage(buttonSize);
         row2.button(Icon.cancel, Styles.defaulti, () -> {
             directionTable.visible = false;
+            enabled = true;
         }).get().resizeImage(buttonSize);
         row2.button(Icon.right, Styles.defaulti, () -> {
             directionAction.get(Direction.RIGHT);
             directionTable.visible = false;
+            enabled = true;
         }).get().resizeImage(buttonSize);
 
         directionTable.row();
@@ -342,6 +345,7 @@ public class AutoDrill extends Mod {
         directionTable.table().get().button(Icon.down, Styles.defaulti, () -> {
             directionAction.get(Direction.DOWN);
             directionTable.visible = false;
+            enabled = true;
         }).get().resizeImage(buttonSize);
 
         Core.input.addProcessor(new InputProcessor() {
