@@ -1,6 +1,6 @@
 # Auto Drill Fix
 
-[![GitHub all releases](https://img.shields.io/github/downloads/slaimmials/AutoDrill-Fix-Update/total)](https://github.com/slaimmials/AutoDrill-Fix/releases)
+[![GitHub all releases](https://img.shields.io/github/downloads/slaimmials/AutoDrill-Fix/total)](https://github.com/slaimmials/AutoDrill-Fix/releases)
 ![GitHub Repo stars](https://img.shields.io/github/stars/slaimmials/AutoDrill-Fix?style=social)
 
 Mindustry Mod which adds tools to automatically fill a resource patch with drills.
