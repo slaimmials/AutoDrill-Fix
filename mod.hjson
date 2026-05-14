@@ -1,9 +1,9 @@
-displayName: "AutoDrill"
+displayName: "AutoDrill Fix"
 name: "auto-drill"
-author: "Pointifix"
+author: "Pointifix & slaimmials"
 main: "autodrill.AutoDrill"
 description: "Adds tools for automatically filling resource patches with drills"
 version: 1.0
-minGameVersion: 147
+minGameVersion: 157
 java: true
 hidden: true
